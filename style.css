@@ -1,0 +1,56 @@
+body{
+    background-color:#82898F;
+    color: white;
+}
+
+#score{
+    font-size: 35px ;
+    margin-left: 20px;
+    float: left;
+}
+
+#timer{
+    font-size: 35px ;
+    margin-right: 100px;
+    float: right;
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    font-family: "Special Elite", fantasy;
+    background-color: darkgray;
+    padding: 5px;
+}
+
+#show_sketch{
+    float: right;
+}
+
+#label{
+    font-size: 18px;
+}
+
+#confidence{
+    font-size: 18px;
+}
+
+#sketch_name{
+    font-size: 22px;
+}
+
+canvas{
+    border: 5px solid white;
+    border-radius: 20px;
+    margin-top: 150px;
+    box-shadow: 5px 5px 5px gray ;
+    box-shadow: 5px 5px 5px white ;
+    animation-name:example ;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example{
+    from{ box-shadow: 1px 1px 38px gray ;}
+    to{ box-shadow: 1px 1px 38px white ;}
+}
+
